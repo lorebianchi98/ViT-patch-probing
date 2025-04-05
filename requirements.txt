@@ -1,0 +1,10 @@
+matplotlib
+opencv-python
+pyyaml
+scikit-image
+tqdm
+timm
+transformers
+numpy==1.24.1
+pandas
+scikit-learn

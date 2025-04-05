@@ -1,0 +1,9 @@
+model_name: dinov2_vitl14_reg
+data_root: data/VOCdevkit/VOC2012
+train_datapath: ImageSets/Segmentation/train.txt
+val_datapath: ImageSets/Segmentation/val.txt
+resize_dim: 448
+lr: 0.005
+batch_size: 16
+num_epochs: 3
+remove_background: true
