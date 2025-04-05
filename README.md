@@ -36,8 +36,8 @@ pip install -r requirements.txt
 
 This repo uses the **Pascal VOC 2012** dataset.
 
-- 📥 Download it from [this link](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar).
-- 📦 Follow the [MMSegmentation preparation guide](https://github.com/open-mmlab/mmsegmentation/blob/master/docs/en/dataset_prepare.md#pascal-voc) to set it up properly.
+- Download it from [this link](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar).
+- Follow the [MMSegmentation preparation guide](https://github.com/open-mmlab/mmsegmentation/blob/master/docs/en/dataset_prepare.md#pascal-voc) to set it up properly.
 
 ---
 
@@ -64,7 +64,7 @@ Training used: **batch size = 16**, **Adam optimizer**, **learning rate = 5e-3**
 | CLIP                             |    -     |   0.91   |   0.90   |
 | DINO                             |   0.65   |   0.77   |    -     |
 | DINOv2 (without registers)       |   0.95   |   0.96   |   0.95   |
-| **DINOv2 (with registers)** 🔥   | **0.97** | **0.97** | **0.96** |
+| DINOv2 (with registers)   | **0.97** | **0.97** | **0.96** |
 
 ---
 
